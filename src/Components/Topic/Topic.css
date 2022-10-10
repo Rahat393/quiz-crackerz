@@ -3,7 +3,17 @@
 }
 
 .topic {
-    border: 3px solid lightgray;
+    border: 3px solid rgba(52, 50, 50, 0.055);
     padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(119, 136, 153, 0.142);
+}
+
+.practice-btn {
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
     border-radius: 10px;
 }

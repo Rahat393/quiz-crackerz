@@ -7,7 +7,8 @@ const Topic = ({ topic }) => {
         <div className='topic'>
 
             <img src={logo} alt="" />
-            <h3>nmae : {name}</h3>
+            <h3> {name}</h3>
+            <button className='practice-btn'>Start Practice</button>
         </div>
     );
 };
