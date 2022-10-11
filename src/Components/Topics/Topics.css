@@ -1,6 +1,27 @@
 .topics {
     display: flex;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-top: 70px;
+    margin-bottom: 100px;
     /* border: 1px solid blue; */
+}
+
+.header-img img {
+    width: 150px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-header p {
+    margin-left: 20px;
 }

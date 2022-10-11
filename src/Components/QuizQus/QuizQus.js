@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const QuizQus = ({ quiz }) => {
     const { question, options, id, correctAnswer } = quiz
+    console.log(id)
     // console.log(correctAnswer)
 
     const handleRadiobtn = (option) => {
@@ -29,7 +30,7 @@ const QuizQus = ({ quiz }) => {
             <div className='options'>
 
                 {
-                    options.map(option => <p ><small ><input onClick={() => handleRadiobtn(option)} type="radio" value={id} name='quiz' />{option}</small></p>)
+                    options.map(option => <p  ><small  ><input onClick={() => handleRadiobtn(option)} type="radio" value={id} name='quiz' />{option}</small></p>)
                 }
             </div>
             <ToastContainer></ToastContainer>
