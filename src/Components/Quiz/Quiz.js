@@ -5,6 +5,7 @@ import './Quiz.css'
 
 const Quiz = () => {
     const quizs = useLoaderData()
+    console.log(quizs)
     const { name, logo, id, total } = quizs.data
     console.log(quizs)
     return (
