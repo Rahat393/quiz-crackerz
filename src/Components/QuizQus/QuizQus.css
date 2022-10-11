@@ -1,0 +1,14 @@
+.options {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.quiz-details {
+    border: 1px solid goldenrod;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}

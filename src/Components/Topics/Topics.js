@@ -5,12 +5,18 @@ import './Topics.css'
 
 const Topics = () => {
     const topics = useLoaderData()
-    console.log(topics)
+    // console.log(topics)
+
+    const handleQuizBtn = (id) => {
+        console.log(id)
+    }
     return (
         <div className='topics'>
 
             {
                 topics.data.map(topic => <Topic
+                    handleQuizBtn={handleQuizBtn}
+                    key={topic.id}
                     topic={topic}
                 ></Topic>)
             }
