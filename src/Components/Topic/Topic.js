@@ -8,7 +8,7 @@ const Topic = ({ topic, handleQuizBtn }) => {
         <div className='topic'>
 
             <img src={logo} alt="" />
-            <h3> {name}</h3>
+            <h3>   {name}</h3>
             <Link to={`/quiz/${id}`}>
                 <button onClick={() => handleQuizBtn(id)}
                     className='practice-btn'>Start Practice

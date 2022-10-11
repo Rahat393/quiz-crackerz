@@ -5,13 +5,14 @@ import './Quiz.css'
 
 const Quiz = () => {
     const quizs = useLoaderData()
-    const { name, logo, id } = quizs.data
+    const { name, logo, id, total } = quizs.data
     console.log(quizs)
     return (
         <div className=''>
             <div className='quiz-title'>
                 <img src={logo} alt="" />
-                <h2>  {name} </h2>
+                <h2>Quiz of  {name} </h2>
+                <h4>Total Quiz : {total}</h4>
             </div>
             {
                 quizs.data.questions.map(quiz => <QuizQus
