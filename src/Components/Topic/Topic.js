@@ -12,7 +12,8 @@ const Topic = ({ topic, handleQuizBtn }) => {
             <Link to={`/quiz/${id}`}>
                 <button onClick={() => handleQuizBtn(id)}
                     className='practice-btn'>Start Practice
-                    {/* <Link to='/quiz'></Link> */}
+
+
                 </button>
             </Link>
         </div>
